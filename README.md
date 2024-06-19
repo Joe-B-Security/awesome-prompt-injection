@@ -30,6 +30,8 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Adversarial Prompting](https://www.promptingguide.ai/risks/adversarial/) - A guide on the various types of adversarial prompting and ways to mitigate them.
 - [Don't you (forget NLP): Prompt injection with control characters in ChatGPT](https://dropbox.tech/machine-learning/prompt-injection-with-control-characters-openai-chatgpt-llm) - A look into how to achieve prompt injection from control characters from Dropbox.
 - [Testing the Limits of Prompt Injection Defence](https://blog.fondu.ai/posts/prompt-injection-defence/) - A practical discussion about the unique complexities of securing LLMs from prompt injection attacks.
+- [Improving LLM Security Against Prompt Injection: AppSec Guidance For Pentesters and Developers](https://blog.includesecurity.com/2024/01/improving-llm-security-against-prompt-injection-appsec-guidance-for-pentesters-and-developers/) - Using Role Based APIs to Minimize the Risk of Prompt Injection and 13 Guidelines for Writing System Prompts that Minimize the Risk of Prompt Injection.
+- [Improving LLM Security Against Prompt Injection: AppSec Guidance For Pentesters and Developers – Part 2](https://blog.includesecurity.com/2024/02/improving-llm-security-against-prompt-injection-appsec-guidance-for-pentesters-and-developers-part-2/) - Understanding Transformer Models (especially attention), Causes and How Do We Stop Prompt Injection.
 
 ## Tutorials
 
