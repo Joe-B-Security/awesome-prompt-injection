@@ -42,6 +42,8 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 - [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) - This paper introduces a simple and efficient attack method that enables aligned language models to generate objectionable content with high probability, highlighting the need for improved prevention techniques in large language models. The generated adversarial prompts are found to be transferable across various models and interfaces, raising important concerns about controlling objectionable information in such systems.
 
+- [Operationalizing a Threat Model for Red-Teaming Large Language Models (LLMs)](https://github.com/dapurv5/awesome-red-teaming-llms) - This paper presents a systematic review and taxonomy of red-teaming attacks on large language models (LLMs). It introduces a threat model based on entry points in the LLM development and deployment lifecycle, categorizes various types of attacks ranging from jailbreak attempts to training-time manipulations, and discusses defense strategies. The authors provide insights on conducting effective red-teaming exercises and ensuring robust defense mechanisms. The paper aims to help researchers and practitioners navigate the complexities of developing secure and reliable LLM-based applications by offering a comprehensive overview of potential vulnerabilities and attack vectors.
+
 ## Tools
 
 - [Token Turbulenz](https://github.com/wunderwuzzi23/token-turbulenz) - A fuzzer to automate looking for possible Prompt Injections.
