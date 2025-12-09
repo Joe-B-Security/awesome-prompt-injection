@@ -47,6 +47,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 - [Token Turbulenz](https://github.com/wunderwuzzi23/token-turbulenz) - A fuzzer to automate looking for possible Prompt Injections.
 - [Garak](https://github.com/leondz/garak) - Automate looking for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses in LLM's.
+- [promptfoo](https://github.com/promptfoo/promptfoo) - Open-source LLM red teaming framework with prompt injection testing, including direct injection, indirect injection via retrieved context, and multi-turn attacks. Supports CI/CD integration.
 - [InjectLab](https://github.com/ahow2004/injectlab) - A MITRE-style matrix of adversarial prompt injection techniques with mitigations and real-world examples
 
 ## CTF
