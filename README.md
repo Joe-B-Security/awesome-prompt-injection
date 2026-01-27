@@ -54,6 +54,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Promptalanche](https://ctf.fondu.ai/) - As well as traditional challenges, this CTF also introduce scenarios that mimic agents in real-world applications.
 - [Gandalf](https://gandalf.lakera.ai/) - Your goal is to make Gandalf reveal the secret password for each level. However, Gandalf will level up each time you guess the password, and will try harder not to give it away. Can you beat level 7? (There is a bonus level 8).
 - [ChatGPT with Browsing is drunk! There is more to it than you might expect at first glance](https://twitter.com/KGreshake/status/1664420397117317124) - This riddle requires you to have ChatGPT Plus access and enable the Browsing mode in Settings->Beta Features.
+- [AI/LLM Exploitation Challenges](https://academy.8ksec.io/course/ai-exploitation-challenges) - AI, ML, and LLMs CTF Challenges.
 
 ## Community
 
