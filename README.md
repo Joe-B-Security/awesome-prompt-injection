@@ -48,6 +48,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Token Turbulenz](https://github.com/wunderwuzzi23/token-turbulenz) - A fuzzer to automate looking for possible Prompt Injections.
 - [Garak](https://github.com/leondz/garak) - Automate looking for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses in LLM's.
 - [InjectLab](https://github.com/ahow2004/injectlab) - A MITRE-style matrix of adversarial prompt injection techniques with mitigations and real-world examples
+- [PIC Standard](https://github.com/madeinplutofabio/pic-standard) – Protocol to block unauthorized or unproven agent actions via intent + provenance checks. Mitigates prompt injection & side-effect risks. Open-source (Apache 2.0).
 
 ## CTF
 
