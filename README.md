@@ -82,6 +82,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 
+- [AgentShield](https://github.com/elliotllliu/agent-shield) - Security scanner for AI agent skills, MCP servers, and plugins with 55+ prompt injection detection patterns across 8 languages (Chinese, Japanese, Korean, Russian, Arabic, Spanish, French, German). Also detects tool poisoning, data exfiltration, and description-code integrity mismatches. Zero install via npx, 100% offline.
 ## CTF
 
 - [Gandalf](https://gandalf.lakera.ai/) - Your goal is to make Gandalf reveal the secret password for each level. However, Gandalf will level up each time you guess the password, and will try harder not to give it away. Can you beat level 7? (There is a bonus level 8).
