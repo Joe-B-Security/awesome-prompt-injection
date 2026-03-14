@@ -81,6 +81,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Vigil LLM](https://github.com/deadbits/vigil-llm) - Python library and REST API with composable stacked scanners: vector similarity, YARA rules, transformer classifier, canary token detection, and sentiment analysis — designed for defence-in-depth in production.
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
+- [ai-injection-guard](https://github.com/LuciferForge/prompt-shield) - Lightweight prompt injection detector with 75 regex patterns across 9 attack categories (role override, context manipulation, encoding attacks, multilingual). Designed as a <1ms, zero-dependency pre-filter layer before heavier ML-based scanners. Also includes LLM output scanning for secrets, PII, and system prompt leakage.
 
 ## CTF
 
