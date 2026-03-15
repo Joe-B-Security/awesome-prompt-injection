@@ -80,6 +80,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Spikee](https://labs.withsecure.com/tools/spikee) - WithSecure's open-source toolkit for building custom injection datasets and running automated tests against specific LLM application features; integrates with Burp Suite Intruder for black-box assessments.
 - [Vigil LLM](https://github.com/deadbits/vigil-llm) - Python library and REST API with composable stacked scanners: vector similarity, YARA rules, transformer classifier, canary token detection, and sentiment analysis — designed for defence-in-depth in production.
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
+- [ShellWard](https://github.com/jnMetaCode/shellward) - AI Agent Security Middleware — 26 injection detection rules (14 Chinese + 12 English), risk scoring, mixed-language attack detection. Plus 7 more defense layers including data exfiltration chain blocking.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 
 ## CTF
