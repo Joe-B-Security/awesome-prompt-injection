@@ -83,7 +83,6 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [AgentShield](https://github.com/elliotllliu/agent-shield) - Security scanner for AI agent skills and MCP servers with 55+ prompt injection patterns in 8 languages (EN/ZH/JA/KO/RU/AR/ES/FR), plus tool poisoning, data exfiltration, and cross-file attack chain detection. Includes MCP runtime proxy for real-time interception. Free, offline, zero-config (`npx @elliotllliu/agent-shield scan ./path/`).
 
-- [AgentShield](https://github.com/elliotllliu/agent-shield) - Security scanner for AI agent skills, MCP servers, and plugins with 55+ prompt injection detection patterns across 8 languages (Chinese, Japanese, Korean, Russian, Arabic, Spanish, French, German). Also detects tool poisoning, data exfiltration, and description-code integrity mismatches. Zero install via npx, 100% offline.
 ## CTF
 
 - [Gandalf](https://gandalf.lakera.ai/) - Your goal is to make Gandalf reveal the secret password for each level. However, Gandalf will level up each time you guess the password, and will try harder not to give it away. Can you beat level 7? (There is a bonus level 8).
