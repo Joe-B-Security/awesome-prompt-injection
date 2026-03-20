@@ -84,6 +84,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Sentinel AI](https://github.com/MaxwellCalkin/sentinel-ai) - Real-time prompt injection detection across 12 languages with sub-millisecond regex-based scanning (no GPU or API calls required). Detects obfuscation techniques (base64, hex, ROT13, leetspeak), Claude Code attack vectors (HTML comment injection, authority impersonation, zero-width character smuggling), and includes an MCP safety proxy for transparent guardrails on any MCP server.
 - [AgentSeal](https://github.com/agentseal/agentseal) - Open-source scanner that runs 150 attack probes against AI agents to test for prompt injection and extraction vulnerabilities. Supports OpenAI, Anthropic, Ollama, and any HTTP endpoint. Available as npm and pip   
   package.  
+- [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
 
 ## CTF
 
