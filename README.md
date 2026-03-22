@@ -67,6 +67,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759) - Nov 2025 benchmark of 847 adversarial test cases across 5 attack categories against 7 LLMs. The combined defense framework reduces attack success from 73.2% to 8.7% while retaining 94.3% of baseline task performance.
 - [ToolHijacker: Prompt Injection Attack to Tool Selection in LLM Agents](https://arxiv.org/abs/2504.19793) - Apr 2025 paper introducing a no-box attack that injects a malicious tool document into an agent's tool library to consistently hijack tool selection. Finds that StruQ, SecAlign, DataSentinel, and perplexity detection are all insufficient defenses.
 - [Attention Tracker: Detecting Prompt Injection Attacks in LLMs](https://aclanthology.org/2025.findings-naacl.123.pdf) - NAACL 2025 Findings paper detecting prompt injection by tracking attention distribution shifts — no modification to the underlying model required, making it deployable as a wrapper on any LLM.
+- [Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models](https://arxiv.org/abs/2501.18280) - Discovers that text embedding models have severely biased output distributions, and exploits this to find universal adversarial suffixes ("magic words") that bypass embedding-based LLM safeguards. Attacks transfer across models and languages; a train-free debiasing defense is also proposed.
 
 ## Tools
 
