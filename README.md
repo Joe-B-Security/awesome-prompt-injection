@@ -70,6 +70,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 ## Tools
 
+- [agent-aegis](https://github.com/Acacian/aegis) - Runtime governance layer with prompt injection detection (107 patterns) across 11 AI frameworks. Detects obfuscation techniques (Base64, Unicode, multilingual), PII leakage, and policy violations. Auto-instruments with zero code changes.
 - [Token Turbulenz](https://github.com/wunderwuzzi23/token-turbulenz) - A fuzzer to automate looking for possible Prompt Injections.
 - [Garak](https://github.com/leondz/garak) - Automate looking for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses in LLM's.
 - [InjectLab](https://github.com/ahow2004/injectlab) - A MITRE-style matrix of adversarial prompt injection techniques with mitigations and real-world examples
