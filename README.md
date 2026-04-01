@@ -68,6 +68,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [ToolHijacker: Prompt Injection Attack to Tool Selection in LLM Agents](https://arxiv.org/abs/2504.19793) - Apr 2025 paper introducing a no-box attack that injects a malicious tool document into an agent's tool library to consistently hijack tool selection. Finds that StruQ, SecAlign, DataSentinel, and perplexity detection are all insufficient defenses.
 - [Attention Tracker: Detecting Prompt Injection Attacks in LLMs](https://aclanthology.org/2025.findings-naacl.123.pdf) - NAACL 2025 Findings paper detecting prompt injection by tracking attention distribution shifts — no modification to the underlying model required, making it deployable as a wrapper on any LLM.
 
+- [Safety in Embodied AI: Risks, Attacks, and Defenses](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) - A comprehensive survey of 500+ papers covering prompt injection and other attack vectors in embodied AI systems across the full pipeline (perception, cognition, planning, action, agentic). Includes a 5-layer threat taxonomy mapping where new capabilities introduce new attack surfaces.
 ## Tools
 
 - [Token Turbulenz](https://github.com/wunderwuzzi23/token-turbulenz) - A fuzzer to automate looking for possible Prompt Injections.
