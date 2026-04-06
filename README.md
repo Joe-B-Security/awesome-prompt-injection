@@ -75,7 +75,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
-
+- [SupraWall](https://supra-wall.com): Open-source runtime security layer that intercepts and validates agent tool calls to prevent prompt injection from escalating into unauthorized actions. Apache 2.0.
 ## CTF
 
 - [PromptTrace](https://prompttrace.airedlab.com/) - Free AI security training platform with 7 hands-on prompt injection labs and a 15-level CTF (the Gauntlet) with progressively harder defenses — from prompt-level rules to code guards to LLM classifiers. Unique feature: Context Trace shows the full prompt stack (system prompt, RAG documents, tool definitions, user input) in real-time so you can see exactly how attacks work. Uses real LLMs from OpenAI, Anthropic, Google, Groq, and Cerebras.
