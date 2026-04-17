@@ -75,6 +75,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
+- [AgentShield](https://github.com/hidearmoon/agentshield) - Runtime security layer that intercepts AI agent tool calls with 3-layer intent consistency detection (rules → anomaly → semantic), trust-aware data flow preventing untrusted sources from triggering sensitive tools, and two-phase call architecture that physically separates data extraction from action execution. Includes 92 security tests with attack sample corpus covering direct/indirect injection, encoding bypass, and multi-vector chains.
 
 ## CTF
 
