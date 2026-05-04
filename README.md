@@ -69,6 +69,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 ## Tools
 
+- [Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) - Runtime defense layer for memory poisoning attacks against agentic systems. OWASP reference implementation.
 - [Garak](https://github.com/leondz/garak) - Automate looking for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses in LLM's.
 - [PIC Standard](https://github.com/madeinplutofabio/pic-standard) - Protocol to block unauthorized or unproven agent actions via intent + provenance checks. Mitigates prompt injection & side-effect risks. Open-source (Apache 2.0).
 - [Augustus](https://www.praetorian.com/blog/introducing-augustus-open-source-llm-prompt-injection/) - Feb 2026 open-source tool from Praetorian. A single Go binary with 210+ vulnerability probes across 47 attack categories, 28 LLM providers, 90+ detectors, and 7 payload transformation buffs. Built for penetration testing workflows without Python/npm dependencies.
