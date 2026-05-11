@@ -75,6 +75,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
+- [skill-audit-mcp](https://github.com/eltociear/skill-audit-mcp) - Static security scanner for MCP servers, AI agent skills, and plugins. Detects 68 attack patterns across 4 severity levels, including prompt injection variants (instruction override, role hijack, hidden Unicode, encoded payloads), with SARIF output for GitHub Code Scanning. Ships as a CLI, an MCP server, and a GitHub Action (`uses: eltociear/skill-audit-mcp@v1`). Zero dependencies.
 
 ## CTF
 
