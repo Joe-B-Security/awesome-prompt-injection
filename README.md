@@ -75,6 +75,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
+- [ejentum-mcp](https://github.com/ejentum/ejentum-mcp) - Reasoning harness whose `harness_anti_deception` mode is an agentic tool the agent calls during its loop; the returned scaffold catches sycophancy, hallucination, authority-appeal capitulation, and prompt-injection susceptibility by giving the model a named failure pattern, executable procedure, suppression vectors, and a falsification test to read internally. Ships as MCP server plus twelve native framework integrations on PyPI/npm. MIT.
 
 ## CTF
 
