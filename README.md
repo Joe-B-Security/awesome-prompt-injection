@@ -92,6 +92,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Simon Willison's Blog](https://simonwillison.net) - The most consistent independent tracker of real-world prompt injection incidents, new papers, and tooling across the field.
 - [r/llmsecurity](https://www.reddit.com/r/llmsecurity/) - The most active subreddit dedicated to LLM security research; a good early-warning channel for real-world incidents and new disclosures.
 - [MITRE ATLAS](https://atlas.mitre.org/) - MITRE's adversarial ML threat matrix formally cataloguing direct and indirect prompt injection as core adversary techniques, enabling integration into enterprise threat modelling and purple team exercises.
+- [APort Agent Guardrails](https://aport.io) - Pre-action authorization guardrails for AI agents and MCP/tool-use workflows.
 
 ## Contributing
 
