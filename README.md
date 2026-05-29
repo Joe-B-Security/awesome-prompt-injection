@@ -66,6 +66,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Attention Tracker: Detecting Prompt Injection Attacks in LLMs](https://aclanthology.org/2025.findings-naacl.123.pdf) - NAACL 2025 Findings paper detecting prompt injection by tracking attention distribution shifts — no modification to the underlying model required, making it deployable as a wrapper on any LLM.
 - [Safety in Embodied AI: Risks, Attacks, and Defenses](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) - A comprehensive survey of 500+ papers covering prompt injection and other attack vectors in embodied AI systems across the full pipeline (perception, cognition, planning, action, agentic). Includes a 5-layer threat taxonomy mapping where new capabilities introduce new attack surfaces.
 - [Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models](https://arxiv.org/abs/2501.18280) - Discovers that text embedding models have severely biased output distributions, and exploits this to find universal adversarial suffixes ("magic words") that bypass embedding-based LLM safeguards. Attacks transfer across models and languages; a train-free debiasing defense is also proposed.
+- [EmbedGuard: Cross-Layer Detection and Provenance Attestation for Adversarial Embedding Attacks in RAG Systems](https://doi.org/10.22399/ijcesen.4869) - IJCESEN 2026 paper introducing a defense framework against adversarial embedding manipulations in retrieval-augmented generation systems. Combines runtime detection with cryptographic provenance attestation across the embedding-retrieval-generation layers, with open-source reference implementation at https://github.com/neerazz/embedguard.
 
 ## Tools
 
@@ -75,6 +76,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
+- [EmbedGuard](https://github.com/neerazz/embedguard) - Cross-layer detection and provenance attestation for adversarial embedding attacks in RAG systems. MIT-licensed open-source reference implementation of the IJCESEN 2026 paper, including a quick-start and ablation evidence.
 
 ## CTF
 
