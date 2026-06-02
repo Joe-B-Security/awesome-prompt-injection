@@ -45,6 +45,8 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [New Prompt Injection Papers: Agents Rule of Two and The Attacker Moves Second](https://simonwillison.net/2025/Nov/2/new-prompt-injection-papers/) - Simon Willison's Nov 2025 commentary on both landmark papers, including the finding that 12 published defenses were bypassed at >90% success rate using gradient descent and RL-based adaptive attacks.
 - [Indirect Prompt Injection Through MCP Tools: A Defense Guide](https://www.stackone.com/blog/indirect-prompt-injection-mcp-tools-defense) - Feb 2026 guide explaining why any MCP tool that reads data written outside your trust boundary (CRM notes, calendar invites, API responses) is an injection vector, with concrete mitigations per tool category.
 - [Indirect Prompt Injection Attacks: Hidden AI Risks](https://www.crowdstrike.com/en-us/blog/indirect-prompt-injection-attacks-hidden-ai-risks/) - CrowdStrike's Dec 2025 analysis of IPI TTPs targeting enterprise GenAI, including attacker-controlled document poisoning, RAG context manipulation, and practical detection signals for SOC workflows.
+- [Emoji Prompt Injection: Why Your LLM's Guardrails Are Blind to It](https://repello.ai/blog/prompt-injection-using-emojis) - Repello AI research on Unicode variation selector attacks that bypass tokenizer-based guardrails. Covers the structural failure mode and detection requirements.
+- [Turning Background Noise into Prompt Injection Attacks in Voice AI](https://repello.ai/blog/turning-background-noise-into-a-prompt-injection-attacks-in-voice-ai) - Repello AI research on injecting prompts via ambient audio in voice-AI pipelines that convert speech to text before LLM processing.
 
 ## Tutorials
 
@@ -76,6 +78,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
+- [Whistleblower](https://github.com/Repello-AI/whistleblower) - Open-source offensive security tool for testing LLM applications against system prompt leakage attacks.
 
 ## CTF
 
