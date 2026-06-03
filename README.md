@@ -75,6 +75,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
+- [Bulwark](https://github.com/anilatambharii/bulwark) - Open-source Python framework for production AI agents: five-layer defense pipeline (input sanitization, 22-pattern injection detection with optional DeBERTa-v3 transformer classifier, RBAC, human confirmation gates, encrypted audit trail). Pattern-only default needs no ML dependencies; the transformer layer is an opt-in extra. Vendor-neutral; integrates with MCP, Anthropic, OpenAI, and LangChain. Apache 2.0, v0.2.0, >90% test coverage.
 
 ## CTF
 
