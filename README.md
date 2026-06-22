@@ -53,6 +53,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Prompt Injection in LLM Agents (ReAct, Langchain)](https://www.youtube.com/watch?v=43qfHaKh0Xk) - Theory and hands-on lab on prompt injection against Langchain ReAct agents
 - [How AI Prompt Injection Works | Hands-on with LLMs](https://www.youtube.com/watch?v=fCpAr2OylDw) - Jan 2026 AppSecEngineer tutorial with a code-level demo of injecting against a real LLM application and live testing of LLM Guard detection. One of the most practical end-to-end tutorials published to date.
 - [MCP Prompt Injection: How AI Gets Hacked](https://www.youtube.com/watch?v=bO-7DB-3dL8) - Nov 2025 hands-on walkthrough showing how prompt injection exploits tool metadata and trust boundaries in Model Context Protocol-integrated agents — the dominant new attack surface of 2025.
+- [hego.red](https://hego.red/) - Free single-page, hands-on AI/LLM red teaming guide: prompt injection, jailbreaks, indirect injection, RAG poisoning, and agent/tool attacks, with a full methodology and worked labs.
 - [hego.red](https://hego.red/) - Free, practical notes on AI/LLM red teaming from zero to hero: prompt injection (direct and indirect), jailbreaks, data exfiltration, agent and tool attacks, plus a full methodology and worked labs.
 
 ## Research Papers
