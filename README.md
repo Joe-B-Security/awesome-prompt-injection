@@ -78,6 +78,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
 - [prompt-shield](https://github.com/mthamil107/prompt-shield) - Self-learning prompt injection detection engine with novel cross-domain techniques: Smith-Waterman sequence alignment (bioinformatics), stylometric discontinuity detection (forensic linguistics), and adversarial fatigue tracking (materials science). 27 detectors, 6 output scanners, 10 languages, benchmarked on 6 public datasets. Research paper: [arXiv:2604.18248](https://arxiv.org/abs/2604.18248). Apache-2.0.
+- [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Python SDK that verifies an agent's outbound calls and MCP handoffs against a source of truth using zero-knowledge proofs, then blocks anything off the trusted-endpoint allow-list. It constrains what a successful prompt injection can do at the network boundary by stopping unauthorized exfiltration and tool calls before they leave.
 
 ## CTF
 
