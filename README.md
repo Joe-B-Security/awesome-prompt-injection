@@ -87,6 +87,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [AI/LLM Exploitation Challenges](https://academy.8ksec.io/course/ai-exploitation-challenges) - AI, ML, and LLMs CTF Challenges.
 - [CrowdStrike AI Unlocked](https://www.crowdstrike.com/en-us/blog/introducing-ai-unlocked-interactive-prompt-injection-challenge/) - Released Feb 2026, designed to train security, developer, and AI teams on prompt injection against increasingly capable agents. Built by CrowdStrike's Counter Adversary Operations team.
 - [ai-prompt-ctf by c-goosen](https://github.com/c-goosen/ai-prompt-ctf) - One of the few CTFs that tests indirect injection against tool-calling agents, spanning RAG, function calling, and ReAct agent scenarios using LlamaIndex, ChromaDB, GPT-4o, and Llama 3.2.
+- - [LLMVault](https://github.com/CyberSunil/LLMVault) - Open-source CTF-style LLM security lab for learning the OWASP LLM Top 10 through hands-on vulnerable labs covering prompt injection, RAG attacks, system prompt leakage, agent security, and more.
 
 ## Community
 
