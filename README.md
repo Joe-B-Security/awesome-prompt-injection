@@ -79,6 +79,8 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
 - [prompt-shield](https://github.com/mthamil107/prompt-shield) - Self-learning prompt injection detection engine with novel cross-domain techniques: Smith-Waterman sequence alignment (bioinformatics), stylometric discontinuity detection (forensic linguistics), and adversarial fatigue tracking (materials science). 27 detectors, 6 output scanners, 10 languages, benchmarked on 6 public datasets. Research paper: [arXiv:2604.18248](https://arxiv.org/abs/2604.18248). Apache-2.0.
 
+- [Redcells](https://redcells.net) - Automated adversarial testing platform for LLMs you own or control. Run structured red-team jobs across prompt injection, jailbreak, data leakage, and more with an iterative attack→refine pipeline; dashboard + API.
+
 ## CTF
 
 - [PromptTrace](https://prompttrace.airedlab.com/) - Free AI security training platform with 7 hands-on prompt injection labs and a 15-level CTF (the Gauntlet) with progressively harder defenses — from prompt-level rules to code guards to LLM classifiers. Unique feature: Context Trace shows the full prompt stack (system prompt, RAG documents, tool definitions, user input) in real-time so you can see exactly how attacks work. Uses real LLMs from OpenAI, Anthropic, Google, Groq, and Cerebras.
