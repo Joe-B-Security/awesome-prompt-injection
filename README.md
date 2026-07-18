@@ -45,6 +45,8 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [New Prompt Injection Papers: Agents Rule of Two and The Attacker Moves Second](https://simonwillison.net/2025/Nov/2/new-prompt-injection-papers/) - Simon Willison's Nov 2025 commentary on both landmark papers, including the finding that 12 published defenses were bypassed at >90% success rate using gradient descent and RL-based adaptive attacks.
 - [Indirect Prompt Injection Through MCP Tools: A Defense Guide](https://www.stackone.com/blog/indirect-prompt-injection-mcp-tools-defense) - Feb 2026 guide explaining why any MCP tool that reads data written outside your trust boundary (CRM notes, calendar invites, API responses) is an injection vector, with concrete mitigations per tool category.
 - [Indirect Prompt Injection Attacks: Hidden AI Risks](https://www.crowdstrike.com/en-us/blog/indirect-prompt-injection-attacks-hidden-ai-risks/) - CrowdStrike's Dec 2025 analysis of IPI TTPs targeting enterprise GenAI, including attacker-controlled document poisoning, RAG context manipulation, and practical detection signals for SOC workflows.
+- [ATLAS: Prompt-Injection Cascades in a Multi-Agent Enterprise](https://senthex.com/en/research/atlas/) - Forensic case study where a single poisoned support ticket drives four agents across three model families to a fraudulent transfer; no model is jailbroken, showing the failure is topological rather than per-model.
+- [RELAY: Authority Framing in Agentic CI/CD](https://senthex.com/en/research/relay/) - Case study of a 5-agent pipeline shipping secret-exfiltration code because a ticket claims it is "pre-approved"; ~80% of laundered PRs pass a competent scanner, with content-based detection missing the intent entirely.
 
 ## Tutorials
 
