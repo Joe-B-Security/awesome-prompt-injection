@@ -29,6 +29,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 ## Articles and Blog posts
 
+- [$219,000 in bounties, 5,686 pull requests, zero merges](https://agentatwork.xyz/trapcheck/) - Field report on a live in-the-wild campaign: 43 GitHub issues advertise large bounties whose buried acceptance criterion is that the agent commit its own system prompt and host environment into the PR. Documents the "sandwich injection" — a truthful human-visible disclaimer wrapped in HTML comments telling automated readers to disregard it — with reproducible queries for every figure.
 - [Design Patterns for Securing LLM Agents against Prompt Injections](https://simonwillison.net/2025/Jun/13/prompt-injection-design-patterns/) - Overview of various strategies to mitigate the risk of prompt injection
 - [Prompt injection: What's the worst that can happen?](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/) - General overview of Prompt Injection attacks, part of a series.
 - [ChatGPT Plugins: Data Exfiltration via Images & Cross Plugin Request Forgery](https://embracethered.com/blog/posts/2023/chatgpt-webpilot-data-exfil-via-markdown-injection/) - This post shows how a malicious website can take control of a ChatGPT chat session and exfiltrate the history of the conversation.
@@ -69,6 +70,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 ## Tools
 
+- [trapcheck](https://github.com/agentatwork/trapcheck) - Pre-flight scanner for the repo itself: reads the text a coding agent would read (issue bodies, CONTRIBUTING.md, AGENTS.md, CLAUDE.md, .cursorrules) and flags system-prompt exfiltration asks, directives hidden in HTML comments, and zero-width text in guidance files. Single file, stdlib only, MIT; exits non-zero so it can gate a pipeline.
 - [Garak](https://github.com/leondz/garak) - Automate looking for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses in LLM's.
 - [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) – Open-source scanner for AI agent memory poisoning attacks (OWASP ASI06). Detects prompt injection payloads, memory manipulation patterns, and data exfiltration attempts in agent memory stores. Available as a Python package (`pip install agent-memory-guard`) and GitHub Action.
 - [PIC Standard](https://github.com/madeinplutofabio/pic-standard) - Protocol to block unauthorized or unproven agent actions via intent + provenance checks. Mitigates prompt injection & side-effect risks. Open-source (Apache 2.0).
