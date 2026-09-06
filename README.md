@@ -78,6 +78,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
 - [prompt-shield](https://github.com/mthamil107/prompt-shield) - Self-learning prompt injection detection engine with novel cross-domain techniques: Smith-Waterman sequence alignment (bioinformatics), stylometric discontinuity detection (forensic linguistics), and adversarial fatigue tracking (materials science). 27 detectors, 6 output scanners, 10 languages, benchmarked on 6 public datasets. Research paper: [arXiv:2604.18248](https://arxiv.org/abs/2604.18248). Apache-2.0.
+- [vamp-llm-probe](https://github.com/Vampsecure-Labs/vamp-llm-probe) - CLI security scanner for LLM API endpoints: prompt injection, jailbreak, ASCII smuggling (Unicode Tags U+E0000–U+E007F), and data exfiltration. 900+ adversarial payloads, bilingual EN+ES dataset, maps to OWASP LLM Top 10 + Agentic AI Top 10. CI-ready JSON output.
 
 ## CTF
 
