@@ -2,7 +2,7 @@
 
 Learn about a type of vulnerability that specifically targets machine learning models.
 
-## **Contents**
+## Contents
 
 - [Introduction](#introduction)
 - [Introduction Resources](#introduction-resources)
@@ -12,6 +12,7 @@ Learn about a type of vulnerability that specifically targets machine learning m
 - [Tools](#tools)
 - [CTF](#ctf)
 - [Community](#community)
+- [Contributing](#contributing)
 
 ## Introduction
 
@@ -24,12 +25,12 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 ## Introduction Resources
 
 - [OWASP GenAI LLM Top 10 (2026)](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) - The canonical community reference for LLM application risk, with prompt injection at number one. Supersedes the 2025 edition; the per-risk 2025 pages remain online as an archive.
-- [Agents Rule of Two: A Practical Approach to AI Agent Security](https://ai.meta.com/blog/practical-ai-agent-security/) - Meta's Oct 2025 framework stating that agents must satisfy no more than two of: (A) processing untrustworthy inputs, (B) access to sensitive data, (C) ability to change state externally — a deterministic architectural approach to bounding blast radius.
+- [Agents Rule of Two: A Practical Approach to AI Agent Security](https://ai.meta.com/blog/practical-ai-agent-security/) - Meta's Oct 2025 framework stating that agents must satisfy no more than two of: (A) processing untrustworthy inputs, (B) access to sensitive data, (C) ability to change state externally, a deterministic architectural approach to bounding blast radius.
 - [OWASP Top 10 for Agentic Applications (2026)](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Companion list for autonomous and agentic systems, released Dec 2025 with input from over 100 contributors. Covers the agent-specific failure modes that the LLM list does not reach, including tool misuse and agent hijacking.
 
 ## Articles and Blog posts
 
-- [Design Patterns for Securing LLM Agents against Prompt Injections](https://simonwillison.net/2025/Jun/13/prompt-injection-design-patterns/) - Overview of various strategies to mitigate the risk of prompt injection
+- [Design Patterns for Securing LLM Agents against Prompt Injections](https://simonwillison.net/2025/Jun/13/prompt-injection-design-patterns/) - Overview of various strategies to mitigate the risk of prompt injection.
 - [Prompt injection: What's the worst that can happen?](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/) - General overview of Prompt Injection attacks, part of a series.
 - [ChatGPT Plugins: Data Exfiltration via Images & Cross Plugin Request Forgery](https://embracethered.com/blog/posts/2023/chatgpt-webpilot-data-exfil-via-markdown-injection/) - This post shows how a malicious website can take control of a ChatGPT chat session and exfiltrate the history of the conversation.
 - [Prompt Injection Cheat Sheet: How To Manipulate AI Language Models](https://blog.seclify.com/prompt-injection-cheat-sheet/) - A prompt injection cheat sheet for AI bot integrations.
@@ -53,9 +54,9 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 - [Prompt Injection](https://learnprompting.org/docs/prompt_hacking/injection) - Prompt Injection tutorial from Learn Prompting.
 - [Google AI Red Team: Securing AI](https://services.google.com/fh/files/blogs/google_ai_red_team_digital_final.pdf) - Google's red team walkthrough of how AI systems are attacked in practice. An early foundational report, useful for framing rather than for current technique.
-- [Prompt Injection in LLM Agents (ReAct, Langchain)](https://www.youtube.com/watch?v=43qfHaKh0Xk) - Theory and hands-on lab on prompt injection against Langchain ReAct agents
+- [Prompt Injection in LLM Agents (ReAct, Langchain)](https://www.youtube.com/watch?v=43qfHaKh0Xk) - Theory and hands-on lab on prompt injection against Langchain ReAct agents.
 - [How AI Prompt Injection Works | Hands-on with LLMs](https://www.youtube.com/watch?v=fCpAr2OylDw) - Jan 2026 AppSecEngineer tutorial with a code-level demo of injecting against a real LLM application and live testing of LLM Guard detection. One of the most practical end-to-end tutorials published to date.
-- [MCP Prompt Injection: How AI Gets Hacked](https://www.youtube.com/watch?v=bO-7DB-3dL8) - Nov 2025 hands-on walkthrough showing how prompt injection exploits tool metadata and trust boundaries in Model Context Protocol-integrated agents — the dominant new attack surface of 2025.
+- [MCP Prompt Injection: How AI Gets Hacked](https://www.youtube.com/watch?v=bO-7DB-3dL8) - Nov 2025 hands-on walkthrough showing how prompt injection exploits tool metadata and trust boundaries in Model Context Protocol-integrated agents, which remain a primary attack surface as MCP adoption widens.
 
 ## Research Papers
 
@@ -66,17 +67,17 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [Prompt Injection 2.0: Hybrid AI Threats](https://arxiv.org/abs/2507.13169) - Jul 2025 paper showing how prompt injections now combine with XSS, CSRF, AI worm propagation, and multi-agent infections to evade traditional WAFs entirely. Evaluates Preamble's classifier, data-tagging, and RL-based defenses against these hybrid scenarios.
 - [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759) - Nov 2025 benchmark of 847 adversarial test cases across 5 attack categories against 7 LLMs. The combined defense framework reduces attack success from 73.2% to 8.7% while retaining 94.3% of baseline task performance.
 - [ToolHijacker: Prompt Injection Attack to Tool Selection in LLM Agents](https://arxiv.org/abs/2504.19793) - Apr 2025 paper introducing a no-box attack that injects a malicious tool document into an agent's tool library to consistently hijack tool selection. Finds that StruQ, SecAlign, DataSentinel, and perplexity detection are all insufficient defenses.
-- [Attention Tracker: Detecting Prompt Injection Attacks in LLMs](https://aclanthology.org/2025.findings-naacl.123.pdf) - NAACL 2025 Findings paper detecting prompt injection by tracking attention distribution shifts — no modification to the underlying model required, making it deployable as a wrapper on any LLM.
+- [Attention Tracker: Detecting Prompt Injection Attacks in LLMs](https://aclanthology.org/2025.findings-naacl.123.pdf) - NAACL 2025 Findings paper detecting prompt injection by tracking attention distribution shifts, with no modification to the underlying model required, making it deployable as a wrapper on any LLM.
 - [Safety in Embodied AI: Risks, Attacks, and Defenses](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) - A comprehensive survey of 500+ papers covering prompt injection and other attack vectors in embodied AI systems across the full pipeline (perception, cognition, planning, action, agentic). Includes a 5-layer threat taxonomy mapping where new capabilities introduce new attack surfaces.
 - [Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models](https://arxiv.org/abs/2501.18280) - Discovers that text embedding models have severely biased output distributions, and exploits this to find universal adversarial suffixes ("magic words") that bypass embedding-based LLM safeguards. Attacks transfer across models and languages; a train-free debiasing defense is also proposed.
-- [FinAgent Red-Team: A Benchmark for Regulatory-Control Bypass in Financial LLM Agents](https://github.com/nac7/finagent-redteam) - Aug 2026 benchmark measuring whether indirect prompt injection can drive financial LLM agents past regulatory controls (sanctions screening, payment-structuring thresholds, dual-approval, data exfiltration, confused-deputy payee redirection). Replays 48 scenarios under three control postures (none/advisory/enforced) with deterministic state-predicate scoring — no LLM grader. Finds a frontier model (GPT-4o) bypasses controls 71% of the time with no stated policy, while hard tool-layer enforcement drives attack success to 0% for every model tested.
+- [FinAgent Red-Team: A Benchmark for Regulatory-Control Bypass in Financial LLM Agents](https://github.com/nac7/finagent-redteam) - Aug 2026 benchmark measuring whether indirect prompt injection can drive financial LLM agents past regulatory controls (sanctions screening, payment-structuring thresholds, dual-approval, data exfiltration, confused-deputy payee redirection). Replays 48 scenarios under three control postures (none/advisory/enforced) with deterministic state-predicate scoring rather than an LLM grader. Finds a frontier model (GPT-4o) bypasses controls 71% of the time with no stated policy, while hard tool-layer enforcement drives attack success to 0% for every model tested.
 
 ## Tools
 
 - [Garak](https://github.com/leondz/garak) - Automate looking for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses in LLM's.
 - [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) – Open-source scanner for AI agent memory poisoning attacks (OWASP ASI06). Detects prompt injection payloads, memory manipulation patterns, and data exfiltration attempts in agent memory stores. Available as a Python package (`pip install agent-memory-guard`) and GitHub Action.
 - [PIC Standard](https://github.com/madeinplutofabio/pic-standard) - Protocol to block unauthorized or unproven agent actions via intent + provenance checks. Mitigates prompt injection & side-effect risks. Open-source (Apache 2.0).
-- [Agent Threat Rules (ATR)](https://github.com/Agent-Threat-Rule/agent-threat-rules) - Open detection standard for AI agent threats (prompt injection, tool poisoning, MCP attacks, skill compromise) — Sigma/YARA-style YAML rules. 330 rules across 9 attack categories with full mapping to OWASP Agentic Top 10 (10/10), MITRE ATLAS (100/113), NIST AI RMF (100%), and SAFE-MCP (78/85). 97.1% recall on the garak probe set (193 probes) and 0% false-positive on 53,577 real-world MCP skills. Shipped in production at Cisco AI Defense and Microsoft agent-governance-toolkit. Apache-2.0.
+- [Agent Threat Rules (ATR)](https://github.com/Agent-Threat-Rule/agent-threat-rules) - Open detection standard for AI agent threats (prompt injection, tool poisoning, MCP attacks, skill compromise), using Sigma/YARA-style YAML rules. 330 rules across 9 attack categories with full mapping to OWASP Agentic Top 10 (10/10), MITRE ATLAS (100/113), NIST AI RMF (100%), and SAFE-MCP (78/85). 97.1% recall on the garak probe set (193 probes) and 0% false-positive on 53,577 real-world MCP skills. Shipped in production at Cisco AI Defense and Microsoft agent-governance-toolkit. Apache-2.0.
 - [Augustus](https://www.praetorian.com/blog/introducing-augustus-open-source-llm-prompt-injection/) - Feb 2026 open-source tool from Praetorian. A single Go binary with 210+ vulnerability probes across 47 attack categories, 28 LLM providers, 90+ detectors, and 7 payload transformation buffs. Built for penetration testing workflows without Python/npm dependencies.
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
@@ -85,13 +86,13 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 ## CTF
 
-- [PromptTrace](https://prompttrace.airedlab.com/) - Free AI security training platform with 7 hands-on prompt injection labs and a 15-level CTF (the Gauntlet) with progressively harder defenses — from prompt-level rules to code guards to LLM classifiers. Unique feature: Context Trace shows the full prompt stack (system prompt, RAG documents, tool definitions, user input) in real-time so you can see exactly how attacks work. Uses real LLMs from OpenAI, Anthropic, Google, Groq, and Cerebras.
+- [PromptTrace](https://prompttrace.airedlab.com/) - Free AI security training platform with 7 hands-on prompt injection labs and a 15-level CTF (the Gauntlet) with progressively harder defenses, from prompt-level rules to code guards to LLM classifiers. Unique feature: Context Trace shows the full prompt stack (system prompt, RAG documents, tool definitions, user input) in real-time so you can see exactly how attacks work. Uses real LLMs from OpenAI, Anthropic, Google, Groq, and Cerebras.
 - [Gandalf](https://gandalf.lakera.ai/) - Your goal is to make Gandalf reveal the secret password for each level. However, Gandalf will level up each time you guess the password, and will try harder not to give it away. Can you beat level 7? (There is a bonus level 8).
 - [Damn Vulnerable LLM Agent](https://github.com/WithSecureLabs/damn-vulnerable-llm-agent) - A sample chatbot powered by a ReAct agent, implemented with Langchain. It's designed to be an educational tool for security researchers, developers, and enthusiasts to understand and experiment with prompt injection attacks in ReAct agents.
 - [AI/LLM Exploitation Challenges](https://academy.8ksec.io/course/ai-exploitation-challenges) - AI, ML, and LLMs CTF Challenges.
 - [CrowdStrike AI Unlocked](https://www.crowdstrike.com/en-us/blog/introducing-ai-unlocked-interactive-prompt-injection-challenge/) - Released Feb 2026, designed to train security, developer, and AI teams on prompt injection against increasingly capable agents. Built by CrowdStrike's Counter Adversary Operations team.
 - [ai-prompt-ctf by c-goosen](https://github.com/c-goosen/ai-prompt-ctf) - One of the few CTFs that tests indirect injection against tool-calling agents, spanning RAG, function calling, and ReAct agent scenarios using LlamaIndex, ChromaDB, GPT-4o, and Llama 3.2.
-- [LLMVault](https://github.com/CyberSunil/LLMVault) - Self-hosted CTF-style training range for the OWASP LLM Top 10, with 25 labs across three tiers. Play Mode uses scripted assistants so flags reproduce every time; Live Mode points the same attacks at a real model on your own machine with the secret regenerated per session, so there is no flag to look up. Each lab pairs the attack with the defence that would have stopped it. MIT, Docker.
+- [LLMVault](https://github.com/CyberSunil/LLMVault) - Self-hosted CTF-style training range for the OWASP LLM Top 10, with 25 labs across three tiers. Play Mode uses scripted assistants so flags reproduce every time; Live Mode points the same attacks at a real model on your own machine with the secret regenerated per session, so there is no flag to look up. Each lab pairs the attack with the defense that would have stopped it. MIT, Docker.
 
 ## Community
 
@@ -99,7 +100,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 - [OWASP Gen AI Security Project](https://genai.owasp.org/) - The standards body behind the LLM and Agentic Top 10 lists, with working groups, cheat sheets and guidance updated continuously by practitioners across the industry.
 - [Simon Willison's Blog](https://simonwillison.net) - The most consistent independent tracker of real-world prompt injection incidents, new papers, and tooling across the field.
 - [r/llmsecurity](https://www.reddit.com/r/llmsecurity/) - The most active subreddit dedicated to LLM security research; a good early-warning channel for real-world incidents and new disclosures.
-- [MITRE ATLAS](https://atlas.mitre.org/) - MITRE's adversarial ML threat matrix formally cataloguing direct and indirect prompt injection as core adversary techniques, enabling integration into enterprise threat modelling and purple team exercises.
+- [MITRE ATLAS](https://atlas.mitre.org/) - MITRE's adversarial ML threat matrix formally cataloging direct and indirect prompt injection as core adversary techniques, enabling integration into enterprise threat modelling and purple team exercises.
 
 ## Contributing
 
