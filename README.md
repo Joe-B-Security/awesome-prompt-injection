@@ -79,6 +79,8 @@ This repository collects resources for understanding, testing and mitigating the
 
 ## Tools
 
+- [buried-injections](https://github.com/rudratoshs/buried-injections) - A reproducible benchmark scoring 10 open-source injection detectors on 629 realistic AgentDojo attacks buried in tool output; the best catches ~51% at a 2% false-positive rate. MIT.
+- [taintgate](https://github.com/rudratoshs/taintgate) - A deterministic, no-LLM policy gate that blocks agent tool calls based on where each argument came from (user vs. tool output) rather than classifying text. MIT.
 - [Garak](https://github.com/leondz/garak) - Automate looking for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses in LLM's.
 - [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) - Open-source scanner for AI agent memory poisoning attacks (OWASP ASI06). Detects prompt injection payloads, memory manipulation patterns, and data exfiltration attempts in agent memory stores. Available as a Python package (`pip install agent-memory-guard`) and GitHub Action.
 - [PIC Standard](https://github.com/madeinplutofabio/pic-standard) - Protocol to block unauthorized or unproven agent actions via intent + provenance checks. Mitigates prompt injection & side-effect risks. Open-source (Apache 2.0).
