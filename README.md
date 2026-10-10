@@ -98,6 +98,7 @@ This repository collects resources for understanding, testing and mitigating the
 - [CrowdStrike AI Unlocked](https://www.crowdstrike.com/en-us/blog/introducing-ai-unlocked-interactive-prompt-injection-challenge/) - Released Feb 2026, designed to train security, developer, and AI teams on prompt injection against increasingly capable agents. Built by CrowdStrike's Counter Adversary Operations team.
 - [ai-prompt-ctf by c-goosen](https://github.com/c-goosen/ai-prompt-ctf) - One of the few CTFs that tests indirect injection against tool-calling agents, spanning RAG, function calling, and ReAct agent scenarios using LlamaIndex, ChromaDB, GPT-4o, and Llama 3.2.
 - [LLMVault](https://github.com/CyberSunil/LLMVault) - Self-hosted CTF-style training range for the OWASP LLM Top 10, with 25 labs across three tiers. Play Mode uses scripted assistants so flags reproduce every time; Live Mode points the same attacks at a real model on your own machine with the secret regenerated per session, so there is no flag to look up. Each lab pairs the attack with the defense that would have stopped it. MIT, Docker.
+- [Pink Overspend Challenge](https://github.com/Pink-Agentic-Payments/overspend-challenge) - Free challenge to make an AI agent break Pink Agentic AI Payments' spending rules (per-agent caps, approval rules, time-of-day rules) on a public sandbox that uses test money only, over MCP or REST. Public findings and fix log in the repo; no-signup demo included.
 
 ## Community
 
