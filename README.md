@@ -55,6 +55,9 @@ This repository collects resources for understanding, testing and mitigating the
 - [Authority Framing in Agentic CI/CD (RELAY)](https://doi.org/10.5281/zenodo.21425933) - Pre-registered factorial study of a five-agent CI/CD pipeline built from five production LLMs. A fabricated "pre-approved, do not re-review" claim gets secret-exfiltration code shipped in up to 55% of runs, and roughly 80% of laundered pull requests pass a capable LLM code scanner. Notably the entry agent never leaked its system prompt (0/40), so prompt secrecy held and did not help. Synthetic data, CC BY 4.0.
 - [Agent-targeted bounty honeypots: a reproducible corpus](https://github.com/agentatwork/trapcheck/blob/main/CORPUS.md) - Field notes on a live GitHub operation advertising $219,000 across 43 issues, each stapling a request for the contributor's "complete pre-session instructions" onto a genuine engineering task. Documents the sandwich injection in `CONTRIBUTING.md`, where a truthful human-visible warning that the bounties are symbolic is wrapped in HTML comments telling automated readers to ignore it, and a payout gated on a merge the same file rules out. Every figure ships with the query that reproduces it.
 
+- [Prompt Injection Testing Guide: Direct, Indirect & Tool-Use Attacks](https://loki-intelligence.com/blog/prompt-injection-testing-guide) - Field guide covering direct vs. indirect prompt injection, tool-invocation hijacking, cross-tenant data leakage, memory poisoning, and structured remediation verification.
+- [MCP Security Testing Checklist](https://loki-intelligence.com/blog/mcp-security-testing-checklist) - Twelve-step practitioner checklist for testing Model Context Protocol servers and agent tool integrations against tool poisoning, prompt injection, SSRF, and privilege escalation.
+
 ## Tutorials
 
 - [Prompt Injection](https://learnprompting.org/docs/prompt_hacking/injection) - Prompt Injection tutorial from Learn Prompting.
