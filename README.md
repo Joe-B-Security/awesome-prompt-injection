@@ -62,6 +62,7 @@ This repository collects resources for understanding, testing and mitigating the
 - [Prompt Injection in LLM Agents (ReAct, Langchain)](https://www.youtube.com/watch?v=43qfHaKh0Xk) - Theory and hands-on lab on prompt injection against Langchain ReAct agents.
 - [How AI Prompt Injection Works | Hands-on with LLMs](https://www.youtube.com/watch?v=fCpAr2OylDw) - Jan 2026 AppSecEngineer tutorial with a code-level demo of injecting against a real LLM application and live testing of LLM Guard detection. One of the most practical end-to-end tutorials published to date.
 - [MCP Prompt Injection: How AI Gets Hacked](https://www.youtube.com/watch?v=bO-7DB-3dL8) - Nov 2025 hands-on walkthrough showing how prompt injection exploits tool metadata and trust boundaries in Model Context Protocol-integrated agents, which remain a primary attack surface as MCP adoption widens.
+- [Sécurité des agents IA — Cours ouvert](https://doi.org/10.5281/zenodo.23732189) - Open course in French (CC BY 4.0, 10 modules, 133 slides, Oct 2026) on AI agent security: direct and indirect prompt injection, the lethal trifecta, OWASP LLM and Agentic Top 10, information-flow defenses (CaMeL), evaluation and red teaming. Sources and issue tracker on [GitHub](https://github.com/yulliwasameur/securite-agents-ia-cours).
 
 ## Research Papers
 
