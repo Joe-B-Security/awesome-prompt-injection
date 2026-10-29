@@ -79,6 +79,7 @@ This repository collects resources for understanding, testing and mitigating the
 
 ## Tools
 
+- [Tollgate](https://github.com/kkU1444/tollgate) - MCP governance gateway with a canary-token injection fence: tool arguments containing context-embedded canaries are hard-rejected by a deterministic 16-ring chain (32/32 red-team corpus blocked, 0/8 benign false positives), with cryptographically signed human approvals and a hash-chained audit ledger.
 - [Garak](https://github.com/leondz/garak) - Automate looking for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses in LLM's.
 - [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) - Open-source scanner for AI agent memory poisoning attacks (OWASP ASI06). Detects prompt injection payloads, memory manipulation patterns, and data exfiltration attempts in agent memory stores. Available as a Python package (`pip install agent-memory-guard`) and GitHub Action.
 - [PIC Standard](https://github.com/madeinplutofabio/pic-standard) - Protocol to block unauthorized or unproven agent actions via intent + provenance checks. Mitigates prompt injection & side-effect risks. Open-source (Apache 2.0).
