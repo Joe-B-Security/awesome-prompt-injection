@@ -31,6 +31,7 @@ This repository collects resources for understanding, testing and mitigating the
 - [OWASP GenAI LLM Top 10 (2026)](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) - The canonical community reference for LLM application risk, with prompt injection at number one. Supersedes the 2025 edition; the per-risk 2025 pages remain online as an archive.
 - [Agents Rule of Two: A Practical Approach to AI Agent Security](https://ai.meta.com/blog/practical-ai-agent-security/) - Meta's Oct 2025 framework stating that agents must satisfy no more than two of: (A) processing untrustworthy inputs, (B) access to sensitive data, (C) ability to change state externally, a deterministic architectural approach to bounding blast radius.
 - [OWASP Top 10 for Agentic Applications (2026)](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Companion list for autonomous and agentic systems, released Dec 2025 with input from over 100 contributors. Covers the agent-specific failure modes that the LLM list does not reach, including tool misuse and agent hijacking.
+- [promptinjections.de](https://promptinjections.de/) - German-language reference on prompt injection: 52 attack techniques, an 82-term glossary, a defense checklist, a CVE list and a monthly Threat Index, every entry linked to its primary source.
 
 ## Articles and Blog posts
 
